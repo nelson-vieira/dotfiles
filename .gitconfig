@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2023 Nelson Vieira
+#
+# @author Nelson Vieira <hello@nelsonvieira.me>
+# @license MIT <https://opensource.org/license/mit/>
+[core]
+    eol = lf
+    autocrlf = false
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[user]
+    name = Nelson Vieira
+    email = hello@nelsonvieira.me
+[init]
+    defaultBranch = master
+[gpg]
+    format = ssh

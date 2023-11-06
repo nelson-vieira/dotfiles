@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2023 Nelson Vieira
+#
+# @author Nelson Vieira <hello@nelsonvieira.me>
+# @license MIT <https://opensource.org/license/mit/>
+#
+# log files
+*.log
+
+# Database files
+*.sql
+*.sqlite
+
+# Generated files
+.DS_Store
+.DS_Store?
