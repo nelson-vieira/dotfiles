@@ -1,0 +1,11 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": false,
+    "files.eol": "\n",
+}
