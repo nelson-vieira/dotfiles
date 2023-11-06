@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2023 Nelson Vieira
+#
+# @author Nelson Vieira <hello@nelsonvieira.me>
+# @license MIT <https://opensource.org/license/mit/>
+#
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[**]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = false
