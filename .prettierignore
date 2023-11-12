@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2023 Nelson Vieira
+#
+# @author Nelson Vieira <hello@nelsonvieira.me>
+# @license MIT <https://opensource.org/license/mit/>
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
