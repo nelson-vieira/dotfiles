@@ -1,9 +1,9 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT-0
 #
 # Copyright (c) 2023 Nelson Vieira
 #
 # @author Nelson Vieira <hello@nelsonvieira.me>
-# @license MIT <https://opensource.org/license/mit/>
+# @license MIT-0 <https://opensource.org/license/mit-0/>
 [core]
     eol = lf
     autocrlf = false
