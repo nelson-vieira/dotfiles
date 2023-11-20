@@ -1,11 +1,51 @@
 {
-    "diffEditor.ignoreTrimWhitespace": false,
+    // "editor.fontFamily": "Consolas, 'Courier New', monospace", // Original font family
+    "editor.fontSize": 15,
     "editor.detectIndentation": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.insertSpaces": true,
+    "editor.maxTokenizationLineLength": 9000000,
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "diffEditor.ignoreTrimWhitespace": false,
     "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": false,
+    "files.associations": {
+        ".env.example": "dotenv",
+        ".env.development": "dotenv",
+        ".env.production": "dotenv"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "[javascript]": {
+        "editor.showUnused": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.print.theme": "dark",
+    "better-comments.highlightPlainText": true,
+    "ruby.rubocop.executePath": "",
+    "ruby.rubocop.onSave": false,
+    "vite.autoStart": false,
 }
