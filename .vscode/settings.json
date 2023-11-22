@@ -3,7 +3,7 @@
     "editor.fontSize": 15,
     "editor.detectIndentation": false,
     "editor.formatOnType": false,
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.insertSpaces": true,
     "editor.maxTokenizationLineLength": 9000000,
@@ -27,6 +27,7 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.enableExperiments": false,
     "[dart]": {
         "editor.rulers": [
             80
@@ -42,9 +43,9 @@
     "[python]": {
         "editor.formatOnType": true
     },
+    "better-comments.highlightPlainText": true,
     "markdown.extension.preview.autoShowPreviewToSide": true,
     "markdown.extension.print.theme": "dark",
-    "better-comments.highlightPlainText": true,
     "ruby.rubocop.executePath": "",
     "ruby.rubocop.onSave": false,
     "vite.autoStart": false,
