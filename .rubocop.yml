@@ -1,0 +1,133 @@
+# SPDX-License-Identifier: MIT-0
+#
+# Copyright (c) 2024 Nelson Vieira
+#
+# @author Nelson Vieira <hello@nelsonvieira.me>
+# @license MIT-0 <https://opensource.org/license/mit-0/>
+# Use the rails and rspec extended rubocop gems
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+# Target the project Ruby version
+  TargetRubyVersion: 3.3
+
+# Use spaces instead of tabs for indentation
+Layout/IndentationStyle:
+  EnforcedStyle: spaces
+
+# Always use 4 (four) spaces for indentation
+Layout/IndentationWidth:
+  Width: 4
+
+# Entities on the same logical depth shall have the same indentation including the protected and private modifier keywords
+Layout/IndentationConsistency:
+  EnforcedStyle: normal
+
+# Don't force multi-line arguments to be aligned with each other
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+# Defines the max chars a line can have
+Layout/LineLength:
+  Max: 200
+
+# Checks that the ABC size of methods is not higher than the configured max,
+# the ABC size is based on assignments, branches (method calls), and conditions.
+# This is an antiquated method to check code size (not complexity or quality).
+Metrics/AbcSize:
+  Max: 50
+  CountRepeatedAttributes: false
+
+# Force return of the condition to be inside of said condition (if or case statements)
+Style/ConditionalAssignment:
+  EnforcedStyle: assign_inside_condition
+
+# Use double quotes instead of single
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+# Show empty methods the same way as a non-empty one (allows for better readability)
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+# Ignore FrozenStringLiteral comment
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+# ignore how STDOUT is written
+Style/GlobalStdStream:
+  Enabled: false
+
+# Empty brackets have a space (no space otherwise)
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyleForEmptyBrackets: space
+
+Metrics/MethodLength:
+  Max: 50
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Metrics/BlockLength:
+  Max: 10000
+
+Style/GuardClause:
+  AllowConsecutiveConditionals: true
+
+Style/NumericLiterals:
+  Strict: true
+
+Rails/NotNullColumn:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/PerceivedComplexity:
+  Max: 20
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/RedundantForeignKey:
+  Enabled: false
+
+Rails/Present:
+  NotBlank: false
+  UnlessBlank: false
+
+Rails/Blank:
+  NotPresent: false
+  UnlessPresent: false
+
+Rails/Validation:
+  Enabled: false
+
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
+
+Style/FormatStringToken:
+  EnforcedStyle: template
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+  IgnoreEmptyMethods: true
+  IgnoreNotImplementedMethods: true
+
+Style/MutableConstant:
+  Enabled: false
