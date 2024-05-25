@@ -38,7 +38,7 @@
         "editor.selectionHighlight": false,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "[javascript]": {
         "editor.showUnused": true
