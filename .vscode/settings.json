@@ -1,23 +1,30 @@
 {
     // "editor.fontFamily": "Consolas, 'Courier New', monospace", // Original font family
-    "editor.fontSize": 15,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.detectIndentation": false,
+    "editor.fontSize": 15,
     "editor.formatOnType": false,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.insertSpaces": true,
     "editor.maxTokenizationLineLength": 9000000,
+    "editor.minimap.enabled": true,
     "editor.renderWhitespace": "all",
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.minimap.enabled": true,
-    "editor.wordWrap": "on",
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": true,
+    "diffEditor.diffAlgorithm": "advanced",
     "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "inherit",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": false,
@@ -26,6 +33,7 @@
         ".env.development": "dotenv",
         ".env.production": "dotenv"
     },
+    "telemetry.telemetryLevel": "off",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "One Dark Pro Darker",
@@ -43,13 +51,29 @@
     "[javascript]": {
         "editor.showUnused": true
     },
+    "[latex]": {
+        "editor.rulers": [80]
+    },
+    "[markdown]": {
+        "editor.rulers": [80]
+    },
     "[python]": {
         "editor.formatOnType": true
     },
     "better-comments.highlightPlainText": true,
+    "codeQL.telemetry.enableTelemetry": false,
     "markdown.extension.preview.autoShowPreviewToSide": true,
     "markdown.extension.print.theme": "dark",
+    "prettier.bracketSpacing": true,
+    "prettier.endOfLine": "lf",
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+    "prettier.useTabs": false,
+    "redhat.telemetry.enabled": false,
     "ruby.rubocop.executePath": "",
     "ruby.rubocop.onSave": false,
+    "svg.preview.transparencyGrid": false,
+    "svg.preview.boundingBox": true,
     "vite.autoStart": false,
 }
