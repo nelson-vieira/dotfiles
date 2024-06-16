@@ -22,7 +22,7 @@
     "editor.suggestSelection": "first",
     "editor.tabSize": 4,
     "editor.trimAutoWhitespace": false,
-    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrap": "on",
     "editor.wordWrapColumn": 80,
     "editor.wrappingIndent": "same",
     "emmet.includeLanguages": { "erb": "html" },
@@ -45,10 +45,11 @@
     "workbench.editor.showTabs": "multiple",
     "workbench.enableExperiments": false,
     "workbench.iconTheme": "vscode-icons",
+    "[bibtex]": {
+        "editor.rulers": [80]
+    },
     "[dart]": {
-        "editor.rulers": [
-            80
-        ],
+        "editor.rulers": [80],
         "editor.selectionHighlight": false,
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.tabCompletion": "onlySnippets",
@@ -60,8 +61,14 @@
     "[markdown]": {
         "editor.rulers": [80]
     },
+    "[org]": {
+        "editor.rulers": [80]
+    },
     "[python]": {
         "editor.formatOnType": true
+    },
+    "[txt]": {
+        "editor.rulers": [80]
     },
     "better-comments.highlightPlainText": true,
     "codeQL.telemetry.enableTelemetry": false,
